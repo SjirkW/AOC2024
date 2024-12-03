@@ -3,10 +3,10 @@
 #[allow(unused_imports)]
 
 mod utils;
-mod day1 {
+mod day3 {
     pub mod main; // Link the `a.rs` file as a submodule
 }
-use day1::main::run;
+use day3::main::run;
 
 // mod day2 {
 //     pub mod main; // Link the `a.rs` file as a submodule
